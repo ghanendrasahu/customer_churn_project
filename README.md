@@ -129,7 +129,7 @@ This project was built as a demonstration of a production-grade machine learning
 Thank you for checking out this project! Building this end-to-end system was a deep dive into the intersection of **Data Science** and **Software Engineering**. I hope this serves as a useful template for anyone looking to bridge the gap between a Jupyter Notebook and a real-world application.
 
 ## 📬 Contact & Support
-**Ghanendra Sahu** * 🔗 [LinkedIn](https://www.linkedin.com/in/ghanendrasahu)
+**Ghanendra Sahu**  🔗 [LinkedIn](https://www.linkedin.com/in/ghanendrasahu)
 
 ---
 
