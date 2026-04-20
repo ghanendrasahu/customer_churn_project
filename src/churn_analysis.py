@@ -66,7 +66,7 @@ print("SECTION 1  —  DATA LOADING & CLEANING")
 print("=" * 68)
 
 # --- 1.1  Load raw CSV --------------------------------------------------------
-df = pd.read_csv("telco_churn.csv")
+df = pd.read_csv("../data/telco_churn.csv")
 print(f"\nRaw shape : {df.shape[0]:,} rows x {df.shape[1]} columns")
 print("\nColumn dtypes:")
 print(df.dtypes.to_string())
