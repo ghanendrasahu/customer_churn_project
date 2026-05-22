@@ -46,3 +46,18 @@ streamlit run app/app.py
 
 - `data/` and `models/` contain generated artifacts and are ignored by Git.
 - `outputs/` is optional generated visualization output and is ignored by Git.
+
+## Future Improvements
+
+- Refactor FastAPI into a production-style structure (`routers/`, `schemas/`, `services/`).
+- Add `/health` and `/reload` endpoints with model/version metadata.
+- Implement heuristic fallback when trained artifacts are unavailable.
+- Add prediction logging (`JSONL` or SQLite) for monitoring and traceability.
+- Add unit and integration tests (`pytest`) for training + API routes.
+- Containerize with Docker and add one-command local startup.
+- Add GitHub Actions CI (lint, test, build checks on every push/PR).
+- Add post-training evaluation report (metrics + plots).
+- Add SHAP-based explainability for richer prediction insights.
+- Add basic drift checks for incoming feature distributions.
+- Add API auth/rate limiting for safer external use.
+- Add deployment guide and live demo link (Render/Railway/AWS).
